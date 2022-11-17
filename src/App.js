@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-import CLCard from './components/cl-components';
-
+import ABCard from './components/ab-component'
 function App() {
   return (
     <div className="App">
-      <CLCard/>
+      <ABCard />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
