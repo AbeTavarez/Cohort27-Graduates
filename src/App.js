@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+import CLCard from './components/cl-components';
+
 function App() {
   return (
     <div className="App">
+      <CLCard/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
