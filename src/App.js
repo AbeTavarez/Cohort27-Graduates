@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import bbCard from "./components/bb-component";
 
 function App() {
   return (
     <div className="App">
+      <bbCard />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
