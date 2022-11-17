@@ -5,3 +5,5 @@ const OACard = () => {
         </div>
     )
 }
+
+export default OACard
