@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import DMCard from "./components/dm-component"
 
 function App() {
   return (
     <div className="App">
+      <DMCard />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
