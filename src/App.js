@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import NTCard from './components/nt-component';
 
 function App() {
   return (
     <div className="App">
+      <NTCard />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
