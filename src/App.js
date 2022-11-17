@@ -1,11 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import bbCard from "./components/bb-component";
 
+
+import logo from './logo.svg';
+import './App.css';
+import ABCard from './components/ab-component'
 function App() {
   return (
     <div className="App">
-      <bbCard />
+      <ABCard /> main
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
