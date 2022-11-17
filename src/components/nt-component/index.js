@@ -9,3 +9,5 @@ const NTCard = () => {
         </div>
     )
 }
+
+export default NTCard
