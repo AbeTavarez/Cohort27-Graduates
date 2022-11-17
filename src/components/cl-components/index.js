@@ -14,8 +14,8 @@ const CLCard = () => {
         Just sit right there
         I'll tell you how I became the prince of a town called Bel-Air.
         </Card.Text>
-        {/* <Card.Link href="https://github.com/chrisleg19">GitHub</Card.Link> */}
-        <a href="https://github.com/chrisleg19" target="_blank"><Button variant="primary">GitHub</Button></a>
+        <Card.Link href="https://github.com/chrisleg19">GitHub</Card.Link>
+        {/* <a href="https://github.com/chrisleg19" target="_blank"><Button variant="primary">GitHub</Button></a> */}
       </Card.Body>
     </Card>
   );
