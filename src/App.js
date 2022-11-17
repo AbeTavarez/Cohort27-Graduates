@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import ABCard from './components/ab-component'
 function App() {
   return (
     <div className="App">
+      <ABCard />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
