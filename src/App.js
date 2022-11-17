@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Asow from './components/asw-component/index'
 
+import ABCard from './components/ab-component'
 function App() {
   return (
     <div className="App">
-      <Asow />
+      <ABCard />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
