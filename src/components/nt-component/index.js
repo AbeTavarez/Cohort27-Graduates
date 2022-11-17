@@ -9,7 +9,9 @@ const NTCard = () => {
         <Card.Body>
           <Card.Title>Nelia T</Card.Title>
           <Card.Text>
-                Salt Life
+                "Why do they call it rush hour when nothing moves?"
+                <br/> 
+                - Robin Williams *
           </Card.Text>
           {/* <Card.Link href="#">Github</Card.Link> */}
 
