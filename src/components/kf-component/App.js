@@ -8,7 +8,7 @@ const App = () => {
       <Card.Body>
         <Card.Title>Kelvin Freeman</Card.Title>
         <Card.Text>
-          I look forward to graduating.
+          I look forward to graduating next week.
         </Card.Text>
         <Card.Link href="#">GitHub</Card.Link>
 
