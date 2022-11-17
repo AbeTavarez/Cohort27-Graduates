@@ -8,3 +8,5 @@ const LSCard = ()=> {
     </div>
    ) 
 }
+
+export default LSCard
