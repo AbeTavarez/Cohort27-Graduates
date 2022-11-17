@@ -9,3 +9,5 @@ const MSICard = () => {
         </div>
     )
 }
+
+export default MSICard
