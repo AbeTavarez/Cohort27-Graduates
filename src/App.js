@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ERCard from "./components/er-component";
 
 function App() {
   return (
     <div className="App">
+      <ERCard />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
