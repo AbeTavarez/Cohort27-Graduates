@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import KWCard from './components/kw-component';
 function App() {
   return (
     <div className="App">
+      <KWCard />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
