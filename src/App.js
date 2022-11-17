@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} alt="logo" />
-        <p>Cohort 27 Graduates</p>
         <a
           className="App-link"
           href="https://perscholas.org/"
