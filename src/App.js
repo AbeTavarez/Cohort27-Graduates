@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import NTCard from './components/nt-component';
 
+import ABCard from './components/ab-component'
 function App() {
   return (
     <div className="App">
-      <NTCard />
+      <ABCard />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
