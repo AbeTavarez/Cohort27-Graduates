@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import LSCard from './components/ls-components';
-
+import ABCard from './components/ab-component'
 function App() {
   return (
     <div className="App">
-      <LSCard />
+      <ABCard />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
