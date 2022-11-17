@@ -5,3 +5,4 @@ const bbCard= () =>{
         </div>
     )
 }
+export default bbCard
