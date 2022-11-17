@@ -7,3 +7,4 @@ const GFCard = () => {
     </div>
   );
 };
+export default GFCard
