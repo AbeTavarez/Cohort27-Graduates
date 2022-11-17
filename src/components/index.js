@@ -8,3 +8,5 @@ const ASCard = () => {
         </div>
     )
 }
+
+export default ASCard
