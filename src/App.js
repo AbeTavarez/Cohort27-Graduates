@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-import DMCard from "./components/dm-component"
+import logo from "./logo1.svg";
+import "./App.css";
+import CardsList from "./components/CardsList/CardsList";
+import { Container } from "react-bootstrap";
+
 
 function App() {
   return (
     <div className="App">
-      <DMCard />
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={logo} alt="logo" />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://perscholas.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Per Scholas
         </a>
       </header>
+      <Container>
+        <CardsList />
+      </Container>
     </div>
   );
 }
