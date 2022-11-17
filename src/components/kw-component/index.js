@@ -5,3 +5,4 @@ const KWCard = () => {
         </div>
     )
 }
+export default KWCard
