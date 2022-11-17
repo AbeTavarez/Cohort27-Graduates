@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
-function App() {
+const GFCard = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Card style={{ width: "18rem" }}>
+      <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/39171176?v=4" />
+      <Card.Body>
+        <Card.Title>Gregory Fontana</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Card.Link href="#">GitHub</Card.Link>
+        {/* <Button variant="primary">GitHub</Button> */}
+      </Card.Body>
+    </Card>
   );
-}
+};
 
-export default App;
+export default GFCard;
