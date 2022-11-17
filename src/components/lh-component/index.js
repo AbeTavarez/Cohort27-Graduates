@@ -8,3 +8,5 @@ const LHCard = () => {
     </div>
   )
 }
+
+export default LHCard
